@@ -1,7 +1,7 @@
 text = input("Введите текст: ")
 words = text.split() 
 freq = {}
-for word in words:
+for word in words: ##проверка количества одинаковых слов в тексте
     if word in freq:
         freq[word] += 1
     else:
