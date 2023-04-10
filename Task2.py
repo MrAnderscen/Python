@@ -1,5 +1,5 @@
 string = input("Введите строку: ")
-for i in range(len(string)):
+for i in range(len(string)): ##проверка на длину строки и на букву с
     if i == 2: 
         continue
     elif string[i] == "c": 
