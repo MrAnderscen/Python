@@ -1,9 +1,9 @@
-a = int(input())
-b = int(input())
+a = int(input('Введите первое число:'))
+b = int(input('Введите второе число:'))
 if a > b:
     if a // b >= 3:
-        print('More than three times')
+        print('Больше чем в три раза')
     else:
-        print('High')
+        print('Больше')
 else:
-    print('Low')
+    print('Меньше')
